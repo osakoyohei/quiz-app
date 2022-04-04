@@ -1,29 +1,34 @@
 //
-//  ScoreViewController.swift
-//  QuizApp
+//  SelectLevelViewController.swift
+//  
 //
-//  Created by 大迫洋平 on 2022/04/03.
+//  Created by 大迫洋平 on 2022/04/05.
 //
 
 import UIKit
 
-class ScoreViewController: UIViewController {
-    @IBOutlet weak var scoreLabel: UILabel!
+class SelectLevelViewController: UIViewController {
     
-    var correct = 0
+    var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        scoreLabel.text = "\(correct)問正解!"
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func toTopButtonAction(_ sender: Any) {
-        self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let quizVC = segue.destination as! QuizViewController
+        quizVC.selectLevel = selectTag
     }
     
+    @IBAction func levelButtonAction(sender: UIButton) {
+        print(sender.tag)
+        selectTag = sender.tag
+        performSegue(withIdentifier: "toQuiz", sender: nil)
+    }
+    
+
     /*
     // MARK: - Navigation
 

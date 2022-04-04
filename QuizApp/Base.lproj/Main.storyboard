@@ -30,7 +30,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="スタート"/>
                                 <connections>
-                                    <segue destination="89j-qK-DDZ" kind="presentation" id="Q0D-Yx-ak4"/>
+                                    <segue destination="I6i-w9-nPL" kind="presentation" id="92M-cU-V3d"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,6 +41,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-599" y="113"/>
+        </scene>
+        <!--Select Level View Controller-->
+        <scene sceneID="lPa-HH-eUx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="I6i-w9-nPL" customClass="SelectLevelViewController" customModule="QuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pIl-fx-lm9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="難易度を選択してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsv-Yj-iuc">
+                                <rect key="frame" x="52" y="221" width="330" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU9-0w-z1G">
+                                <rect key="frame" x="104" y="348" width="207" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="レベル1"/>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="I6i-w9-nPL" eventType="touchUpInside" id="7Ml-aC-yQB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdH-mI-hAM">
+                                <rect key="frame" x="104" y="498" width="207" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="レベル2"/>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="I6i-w9-nPL" eventType="touchUpInside" id="PK3-9A-DMg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIC-N5-RQd">
+                                <rect key="frame" x="104" y="638" width="207" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="レベル3"/>
+                                <connections>
+                                    <action selector="levelButtonActionWithSender:" destination="I6i-w9-nPL" eventType="touchUpInside" id="CsB-LY-Cuf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V9o-tq-WN2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <segue destination="89j-qK-DDZ" kind="presentation" identifier="toQuiz" id="hxQ-kS-tRH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQc-4N-a1u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="112"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="aP3-WV-iNG">
@@ -127,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RBK-gK-ZxN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85.507246376811594" y="111.83035714285714"/>
+            <point key="canvasLocation" x="807" y="112"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="hVN-8N-W7C">
@@ -164,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAw-RD-r8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798.55072463768124" y="111.83035714285714"/>
+            <point key="canvasLocation" x="1625" y="112"/>
         </scene>
     </scenes>
     <resources>
