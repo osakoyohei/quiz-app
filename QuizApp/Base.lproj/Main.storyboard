@@ -154,7 +154,7 @@
                                     <action selector="btnActionWithSender:" destination="89j-qK-DDZ" eventType="touchUpInside" id="RJD-xw-ZqP"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o9d-pJ-wQZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o9d-pJ-wQZ">
                                 <rect key="frame" x="27" y="166" width="361" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -211,6 +211,16 @@
                                     <action selector="toTopButtonAction:" destination="dhR-Nk-WDH" eventType="touchUpInside" id="uC4-Hi-ymD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMP-Kr-Vce">
+                                <rect key="frame" x="62" y="265" width="305" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="結果をシェアする"/>
+                                <connections>
+                                    <action selector="shareButtonAction:" destination="dhR-Nk-WDH" eventType="touchUpInside" id="qxb-en-Qcc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ADh-X2-OPT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -221,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAw-RD-r8s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1625" y="112"/>
+            <point key="canvasLocation" x="1624.6376811594205" y="111.83035714285714"/>
         </scene>
     </scenes>
     <resources>
