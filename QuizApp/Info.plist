@@ -27,5 +27,7 @@
 	</dict>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
+	<key>CFBundleDisplayName</key>
+	<string>〇〇クイズ</string>
 </dict>
 </plist>
