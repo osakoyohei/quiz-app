@@ -21,7 +21,7 @@
 		27263B5227F8F47F006BA02C /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 27263B5127F8F47F006BA02C /* quiz1.csv */; };
 		27263B5627F90932006BA02C /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 27263B5427F90932006BA02C /* correct.png */; };
 		27263B5727F90932006BA02C /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 27263B5527F90932006BA02C /* incorrect.png */; };
-		2767F8CD27FE4FFD00810019 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 2767F8CC27FE4FFD00810019 /* launchImageView.png */; };
+		2767F8D3280150E600810019 /* homeappliances.png in Resources */ = {isa = PBXBuildFile; fileRef = 2767F8D2280150E600810019 /* homeappliances.png */; };
 		EC0F1B1614FCAD41E1070E6B /* Pods_QuizApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6039651B42C47A00DF3EDDC /* Pods_QuizApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,7 @@
 		27263B5127F8F47F006BA02C /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
 		27263B5427F90932006BA02C /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		27263B5527F90932006BA02C /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
-		2767F8CC27FE4FFD00810019 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		2767F8D2280150E600810019 /* homeappliances.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeappliances.png; sourceTree = "<group>"; };
 		BCF6C28D1621F0B9185B16F3 /* Pods-QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp.debug.xcconfig"; path = "Target Support Files/Pods-QuizApp/Pods-QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DB357FD914F90D07503A0E7B /* Pods-QuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp.release.xcconfig"; path = "Target Support Files/Pods-QuizApp/Pods-QuizApp.release.xcconfig"; sourceTree = "<group>"; };
 		E6039651B42C47A00DF3EDDC /* Pods_QuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +112,7 @@
 		2767F8CB27FE4FFD00810019 /* launchImage */ = {
 			isa = PBXGroup;
 			children = (
-				2767F8CC27FE4FFD00810019 /* launchImageView.png */,
+				2767F8D2280150E600810019 /* homeappliances.png */,
 			);
 			path = launchImage;
 			sourceTree = "<group>";
@@ -194,12 +194,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2767F8CD27FE4FFD00810019 /* launchImageView.png in Resources */,
 				270C8C2427FBB5B0003E4CC8 /* quiz2.csv in Resources */,
 				27263B5627F90932006BA02C /* correct.png in Resources */,
 				27263B5727F90932006BA02C /* incorrect.png in Resources */,
 				27263B4627F8EEA7006BA02C /* LaunchScreen.storyboard in Resources */,
 				27263B4327F8EEA7006BA02C /* Assets.xcassets in Resources */,
+				2767F8D3280150E600810019 /* homeappliances.png in Resources */,
 				27263B4127F8EEA0006BA02C /* Main.storyboard in Resources */,
 				27263B5227F8F47F006BA02C /* quiz1.csv in Resources */,
 				270C8C2627FBB5CE003E4CC8 /* quiz3.csv in Resources */,
