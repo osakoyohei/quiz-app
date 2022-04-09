@@ -16,19 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImageView.png" translatesAutoresizingMaskIntoConstraints="NO" id="jQ9-Ov-Fq9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeappliances.png" translatesAutoresizingMaskIntoConstraints="NO" id="0kR-Kp-waY">
                                 <rect key="frame" x="123.5" y="269.5" width="128" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="Ywm-Aw-Ta1"/>
-                                    <constraint firstAttribute="width" constant="128" id="jJo-T3-4Jw"/>
+                                    <constraint firstAttribute="height" constant="128" id="ani-6I-78H"/>
+                                    <constraint firstAttribute="width" constant="128" id="wqD-BC-rBr"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jQ9-Ov-Fq9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C7q-bN-6ev"/>
-                            <constraint firstItem="jQ9-Ov-Fq9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Q0P-U1-2g6"/>
+                            <constraint firstItem="0kR-Kp-waY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jfz-Yg-qn5"/>
+                            <constraint firstItem="0kR-Kp-waY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pLV-yN-uI4"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,7 +38,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchImageView.png" width="1000" height="1000"/>
+        <image name="homeappliances.png" width="375" height="375"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
